@@ -16,7 +16,7 @@ public class WeddingVenue extends PanacheEntity {
     @Column(length = 255)
     public String address;
 
-    @Min(value = 1, message = "Capacity must be at least 1")
+    @Min(value = 12, message = "Capacity must be at least 1")
     public int capacity;
 
     @Column(length = 100)
